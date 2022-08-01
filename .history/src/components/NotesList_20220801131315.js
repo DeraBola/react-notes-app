@@ -9,7 +9,7 @@ return(
          id={note.id}  text={note.text}  date={note.date} 
          />
          ))}
-         <AddNote />
+         <AddNote/>
     </div>
 );
 };
