@@ -1,4 +1,4 @@
-import Note from './Note';
+io
 
 const NotesList  = () => {
 return(
