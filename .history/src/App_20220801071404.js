@@ -1,6 +1,6 @@
  const App = () =>{
    return(
-     <p>hello dera hhhhh</p>
+     <p>hello dera</p>
    )
  }
 
