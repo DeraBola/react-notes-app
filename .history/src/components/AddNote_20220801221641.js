@@ -1,9 +1,9 @@
 import { useState }  from 'react';
 const AddNote  = () => {
-    const [noteText, setNoteText] = useState('');
-
+    const [noteText, setnoteText] = useState('');
+    
     const handleChange = (event) =>{
-        setNoteText=(event.target.value);
+        setnoteText=(event.target.value);
     };
 
     const handleSaveClick = () =>{

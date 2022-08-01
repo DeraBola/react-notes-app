@@ -58,13 +58,7 @@ textarea:focus {
 }
 
 .save {
-    background-color: #f4a6a8;
+    background-color: #e996f1;
     border: none;
     border-radius: 15px;
-    padding: 5px 10px5px10px;
-}
-
-.save:hover {
-    background-color: #f4a6a8;
-    cursor: pointer;
 }
