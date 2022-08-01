@@ -1,4 +1,4 @@
-import NotesList from './components/NotesList';
+import Note from './Note';
  
  const App = () =>{
    return(

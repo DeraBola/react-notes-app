@@ -1,4 +1,4 @@
-import NotesList from './components/NotesList';
+ 
  
  const App = () =>{
    return(

@@ -6,7 +6,6 @@ return(
         <Note />
         <Note />
         <Note />
-        <Note />
     </div>
 );
 };
