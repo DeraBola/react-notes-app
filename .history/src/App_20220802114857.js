@@ -1,5 +1,4 @@
 import NotesList from './components/NotesList';
-import Search from './components/Search';
 import { useState }  from 'react';
 import { nanoid }  from 'nanoid';
  const App = () =>{

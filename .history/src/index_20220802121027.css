@@ -87,7 +87,3 @@ textarea:focus {
     border: none;
     background-color: #fdb1ea;
 }
-
-.search input:focus {
-    outline: none;
-}

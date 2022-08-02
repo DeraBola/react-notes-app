@@ -75,19 +75,5 @@ textarea:focus {
 }
 
 .search {
-    display: flex;
-    align-items: center;
-    background-color: #fdb1ea;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 1.5em;
-}
-
-.search input {
-    border: none;
-    background-color: #fdb1ea;
-}
-
-.search input:focus {
-    outline: none;
+    ds
 }

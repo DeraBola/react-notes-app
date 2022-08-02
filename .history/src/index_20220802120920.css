@@ -83,11 +83,4 @@ textarea:focus {
     margin-bottom: 1.5em;
 }
 
-.search input {
-    border: none;
-    background-color: #fdb1ea;
-}
-
-.search input:focus {
-    outline: none;
-}
+.search {}

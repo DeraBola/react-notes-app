@@ -14,7 +14,7 @@ code {
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
-    padding-left: 15px;
+    pa
 }
 
 .notes-list {
@@ -81,13 +81,4 @@ textarea:focus {
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 1.5em;
-}
-
-.search input {
-    border: none;
-    background-color: #fdb1ea;
-}
-
-.search input:focus {
-    outline: none;
 }
