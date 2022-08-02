@@ -43,13 +43,11 @@ localStorage.setItem('react-notes-app-data', JSON.stringify(notes)
 }, [notes]);
 
 useEffect(() => {
-  const savedNotes = JSON.parse(
+  const saveNotes = JSON.parse(
     localStorage.getItem('react-notes-app-data')
   );
-  if(savedNotes){
-    setNotes(savedNotes);
-  }
 
+  
 }, []);
 
   const deleteNote = (id) => {

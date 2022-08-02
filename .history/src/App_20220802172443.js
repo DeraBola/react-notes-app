@@ -37,20 +37,7 @@ const App = () => {
 
   const [darkMode, setDarkMode] = useState("false");
 
-useEffect(() => {
-localStorage.setItem('react-notes-app-data', JSON.stringify(notes)
-);
-}, [notes]);
-
-useEffect(() => {
-  const savedNotes = JSON.parse(
-    localStorage.getItem('react-notes-app-data')
-  );
-  if(savedNotes){
-    setNotes(savedNotes);
-  }
-
-}, []);
+useEffect()
 
   const deleteNote = (id) => {
     const newNotes = notes.filter((note) => note.id !== id);

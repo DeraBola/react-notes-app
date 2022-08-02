@@ -47,7 +47,7 @@ useEffect(() => {
     localStorage.getItem('react-notes-app-data')
   );
   if(savedNotes){
-    setNotes(savedNotes);
+    setNotes(savedNotes)||[];
   }
 
 }, []);
