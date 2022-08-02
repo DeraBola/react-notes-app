@@ -97,11 +97,3 @@ textarea:focus {
     align-items: center;
     justify-content: space-between;
 }
-
-.dark-mode {
-    background-color: black;
-}
-
-.dark-mode h1 {
-    color: #fff;
-}

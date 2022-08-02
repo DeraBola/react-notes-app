@@ -35,7 +35,7 @@ const addNote = (text) => {
 
 const [searchText, setSearchText] = useState('');
 
-const [darkMode, setDarkMode] = useState('false');
+const [darkMode, setDarkMode] = useState('')
 
 const deleteNote = (id) => {
   const newNotes = notes.filter((note) => note.id !== id);
@@ -44,7 +44,7 @@ const deleteNote = (id) => {
 
    return(
     <div className="container" >
-      <Header handleToggleDarkMode={setDarkMode} />
+      <Header />
       <Search handleSearchNote={setSearchText} />
       <NotesList 
       notes={notes.filter((note) => 

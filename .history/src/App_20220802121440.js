@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import NotesList from './components/NotesList';
 import Search from './components/Search';
 import { useState }  from 'react';
@@ -33,9 +32,7 @@ const addNote = (text) => {
   setNotes(newNotes);
 };
 
-const [searchText, setSearchText] = useState('');
-
-const [darkMode, setDarkMode] = useState('false');
+const []
 
 const deleteNote = (id) => {
   const newNotes = notes.filter((note) => note.id !== id);
@@ -44,12 +41,8 @@ const deleteNote = (id) => {
 
    return(
     <div className="container" >
-      <Header handleToggleDarkMode={setDarkMode} />
-      <Search handleSearchNote={setSearchText} />
-      <NotesList 
-      notes={notes.filter((note) => 
-        note.text.toLowerCase().includes(searchText)
-        )} 
+      <Search />
+      <NotesList notes={notes} 
        handleAddNote={addNote} 
        handleDeleteNote={deleteNote}
        />

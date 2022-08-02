@@ -44,7 +44,7 @@ const deleteNote = (id) => {
 
    return(
     <div className="container" >
-      <Header handleToggleDarkMode={setDarkMode} />
+      <Header handleToggleDarM/>
       <Search handleSearchNote={setSearchText} />
       <NotesList 
       notes={notes.filter((note) => 
