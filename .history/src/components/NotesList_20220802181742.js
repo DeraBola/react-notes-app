@@ -3,10 +3,9 @@ import AddNote from './AddNote';
 
 const NotesList  = ({ notes, handleAddNote, handleDeleteNote }) => {
 return(
-    <div className="notes-list">
-        {notes.map((note, id) => (
+    <div keyclassName="notes-list">
+        {notes.map((note) => (
         <Note 
-        key={id}
          id={note.id}  
          text={note.text}  
          date={note.date} 
