@@ -48,7 +48,7 @@ useEffect(() => {
   );
   if(savedNotes){
     setNotes(savedNotes);
-     
+    console.log(savedNotes);
   }
 
 }, []);
