@@ -17,7 +17,7 @@ const App = () => {
     },
     {
       id: nanoid(),
-      text: "this is my third note",
+      text: "this is my new note",
       date: "07-12-2021",
     },
   ]);
@@ -46,9 +46,9 @@ useEffect(() => {
   const savedNotes = JSON.parse(
     localStorage.getItem('react-notes-app-data')
   );
-
-  if(savedNotes){
-    setNotes(savedNotes);   
+  if(savedNotes !== ){
+    setNotes(savedNotes);
+     
   }
 
 }, []);
