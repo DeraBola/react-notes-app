@@ -4,8 +4,7 @@ import Search from "./components/Search";
 import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
 
-const App = () => {
-  
+
   const [notes, setNotes] = useState(
     JSON.parse(localStorage.getItem("react-notes-app-data")) || [
       {

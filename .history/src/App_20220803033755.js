@@ -5,7 +5,24 @@ import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
 
 const App = () => {
-  
+  const [notes, setNotes] = useState([
+    {
+      id: nanoid(),
+      text: "this is my first note",
+      date: "07-12-2021",
+    },
+    {
+      id: nanoid(),
+      text: "this is my second note",
+      date: "07-12-2021",
+    },
+    {
+      id: nanoid(),
+      text: "this is my third note",
+      date: "07-12-2021",
+    },
+  ]);
+
   const [notes, setNotes] = useState(
     JSON.parse(localStorage.getItem("react-notes-app-data")) || [
       {
@@ -53,6 +70,7 @@ useEffect(() => {
 
   if(savedNotes){
     setNotes(savedNotes);   
+
   }
 }, []);
 
